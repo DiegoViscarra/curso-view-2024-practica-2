@@ -1,0 +1,94 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "specialty": "Cardiology",
+      "phone": "6032152",
+      "admissionDate": "2024-04-06"
+    },
+    {
+      "name": "Luis Zamora",
+      "specialty": "Gastroenterology",
+      "phone": "61584752",
+      "admissionDate": "2024-06-05",
+      "id": "m328YzW"
+    },
+    {
+      "name": "Charlotte Stewart",
+      "specialty": "Oncologist",
+      "phone": "62349154",
+      "admissionDate": "2024-07-17",
+      "id": "75w3Zf-"
+    },
+    {
+      "name": "Cameron Johnston",
+      "specialty": "Anesthesiology",
+      "phone": "7246134",
+      "admissionDate": "2023-07-06",
+      "id": "vVAY4yS"
+    },
+    {
+      "name": "Santiago Galvan",
+      "specialty": "Psychiatry",
+      "phone": "7764916",
+      "admissionDate": "2024-01-10",
+      "id": "-tD0yqb"
+    }
+  ],
+  "patients": [
+    {
+      "id": "1",
+      "name": "Carl Johnson",
+      "gender": "Male",
+      "phone": "6352147",
+      "birthDate": "1990-05-07"
+    },
+    {
+      "name": "Shanice Barton",
+      "gender": "Female",
+      "phone": "7777777",
+      "birthDate": "1990-11-12",
+      "id": "3LLcG3S"
+    },
+    {
+      "name": "Lucille O'Neill",
+      "gender": "Female",
+      "phone": "7465874",
+      "birthDate": "1994-02-05",
+      "id": "ihtif_i"
+    },
+    {
+      "name": "Andre Knapp",
+      "gender": "Male",
+      "phone": "7452141",
+      "birthDate": "1985-08-02",
+      "id": "GBleuT-"
+    },
+    {
+      "name": "Tobias Collier",
+      "gender": "Male",
+      "phone": "6946214",
+      "birthDate": "1995-11-11",
+      "id": "lTwd6-z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "doctorId": "1",
+      "patientId": "1",
+      "date": "2024-08-01",
+      "hour": "10:00",
+      "motive": "General check"
+    },
+    {
+      "doctorId": "m328YzW",
+      "patientId": "GBleuT-",
+      "motive": "Stomachache",
+      "date": "2024-08-08",
+      "hour": "15:30",
+      "id": "49c3Tzp"
+    }
+  ]
+}
